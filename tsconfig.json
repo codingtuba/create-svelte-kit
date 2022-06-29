@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "strict": true,
+    "rootDir": "./src",
+    "target": "esnext",
+    "module": "commonjs",
+    "removeComments": false,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "esModuleInterop": true
+  },
+  "exclude": ["node_modules"],
+  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/templates/more/src/routes/api/index.js"],
+}

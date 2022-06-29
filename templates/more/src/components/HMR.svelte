@@ -1,0 +1,1 @@
+Edit <code>src/components/HMR.svelte</code> to test HMR.

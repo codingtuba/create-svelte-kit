@@ -1,0 +1,1 @@
+export default "mongodb://localhost/database"

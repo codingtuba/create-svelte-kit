@@ -1,0 +1,4 @@
+{
+  "node-sass": "next",
+  "svelte-preprocess": "^4.10.7"
+}

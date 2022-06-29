@@ -1,0 +1,6 @@
+{
+  "lint": "eslint .",
+  "lint:prettier": "prettier --check --plugin-search-dir=. .",
+  "lint:eslint": "eslint .",
+  "format": "prettier --write --plugin-search-dir=. ."
+}
