@@ -129,10 +129,6 @@ async function main(){
     name: 'database',
     message: 'Database',
     choices: [{
-      title: 'none',
-      description: 'nothing?',
-      value: 'none'
-    },{
       title: 'sequelize (sqlite3)',
       description: 'SQL client - in file',
       value: 'sqlite'
@@ -237,7 +233,7 @@ async function main(){
       const delete_path = join(option_path, `-`)
 
       // dep. and srp.
-      const package_json = JSON.parse(readFileSync(join(__dirname, `../templates/${template}/package.json`)).toString('utf8'))
+      const package_json = JSON.parse(readFileSync(join(to_path, `package.json`)).toString('utf8'))
       const dependencies = JSON.parse(readFileSync(join(option_path, `dependencies.json`)).toString('utf8'))
       const scripts = JSON.parse(readFileSync(join(option_path, `scripts.json`)).toString('utf8'))
       const new_dependencies = { ...package_json.devDependencies, ...dependencies }
